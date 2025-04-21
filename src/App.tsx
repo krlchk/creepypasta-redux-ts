@@ -1,5 +1,11 @@
+import { CreepypastaAppMain } from "./components/creepypasta-app-main";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <CreepypastaAppMain />
+    </>
+  );
 }
 
 export default App;

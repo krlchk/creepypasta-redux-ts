@@ -1,0 +1,404 @@
+{
+  "stories": [
+    {
+      "id": "1",
+      "title": "The Smiling Man",
+      "text": "",
+      "rating": 4.4,
+      "readTime": 7,
+      "tags": ["disturbing", "urban legend"]
+    },
+    {
+      "id": "2",
+      "title": "The Russian Sleep Experiment",
+      "text": "",
+      "rating": 4.7,
+      "readTime": 5,
+      "tags": ["monster", "urban legend"]
+    },
+    {
+      "id": "3",
+      "title": "The Expressionless",
+      "text": "",
+      "rating": 3.7,
+      "readTime": 2,
+      "tags": ["supernatural", "monster"]
+    },
+    {
+      "id": "4",
+      "title": "Gateway of the Mind",
+      "text": "",
+      "rating": 3.6,
+      "readTime": 7,
+      "tags": ["ghost", "supernatural"]
+    },
+    {
+      "id": "5",
+      "title": "The Rake",
+      "text": "",
+      "rating": 3.9,
+      "readTime": 5,
+      "tags": ["paranormal", "psychological"]
+    },
+    {
+      "id": "6",
+      "title": "Jeff the Killer",
+      "text": "",
+      "rating": 3.7,
+      "readTime": 3,
+      "tags": ["disturbing", "internet myth"]
+    },
+    {
+      "id": "7",
+      "title": "Ben Drowned",
+      "text": "",
+      "rating": 4.1,
+      "readTime": 2,
+      "tags": ["psychological", "disturbing"]
+    },
+    {
+      "id": "8",
+      "title": "Slender Man",
+      "text": "",
+      "rating": 4.3,
+      "readTime": 5,
+      "tags": ["paranormal", "supernatural"]
+    },
+    {
+      "id": "9",
+      "title": "Smile Dog",
+      "text": "",
+      "rating": 4.8,
+      "readTime": 5,
+      "tags": ["internet myth", "psychological"]
+    },
+    {
+      "id": "10",
+      "title": "Abandoned by Disney",
+      "text": "",
+      "rating": 4.9,
+      "readTime": 3,
+      "tags": ["ghost", "disturbing"]
+    },
+    {
+      "id": "11",
+      "title": "The Grifter",
+      "text": "",
+      "rating": 4.6,
+      "readTime": 2,
+      "tags": ["ghost", "urban legend"]
+    },
+    {
+      "id": "12",
+      "title": "Candle Cove",
+      "text": "",
+      "rating": 4.9,
+      "readTime": 3,
+      "tags": ["ritual", "internet myth"]
+    },
+    {
+      "id": "13",
+      "title": "Psychosis",
+      "text": "",
+      "rating": 4.6,
+      "readTime": 2,
+      "tags": ["paranormal", "experiment"]
+    },
+    {
+      "id": "14",
+      "title": "Where the Bad Kids Go",
+      "text": "",
+      "rating": 4.8,
+      "readTime": 7,
+      "tags": ["psychological", "paranormal"]
+    },
+    {
+      "id": "15",
+      "title": "I\u2019m a 911 Operator",
+      "text": "",
+      "rating": 4.8,
+      "readTime": 3,
+      "tags": ["monster", "experiment"]
+    },
+    {
+      "id": "16",
+      "title": "NoEnd House",
+      "text": "",
+      "rating": 4.1,
+      "readTime": 4,
+      "tags": ["urban legend", "paranormal"]
+    },
+    {
+      "id": "17",
+      "title": "The Seedeater",
+      "text": "",
+      "rating": 4.3,
+      "readTime": 2,
+      "tags": ["paranormal", "disturbing"]
+    },
+    {
+      "id": "18",
+      "title": "Anansi\u2019s Goatman Story",
+      "text": "",
+      "rating": 4.3,
+      "readTime": 6,
+      "tags": ["supernatural", "urban legend"]
+    },
+    {
+      "id": "19",
+      "title": "The Woman in the Oven",
+      "text": "",
+      "rating": 4.8,
+      "readTime": 5,
+      "tags": ["psychological", "supernatural"]
+    },
+    {
+      "id": "20",
+      "title": "Mr. Widemouth",
+      "text": "",
+      "rating": 4.8,
+      "readTime": 7,
+      "tags": ["urban legend", "experiment"]
+    },
+    {
+      "id": "21",
+      "title": "Robert the Doll",
+      "text": "",
+      "rating": 3.9,
+      "readTime": 2,
+      "tags": ["paranormal", "experiment"]
+    },
+    {
+      "id": "22",
+      "title": "The Pale Luna",
+      "text": "",
+      "rating": 3.7,
+      "readTime": 5,
+      "tags": ["ghost", "disturbing"]
+    },
+    {
+      "id": "23",
+      "title": "Username 666",
+      "text": "",
+      "rating": 3.8,
+      "readTime": 5,
+      "tags": ["supernatural", "disturbing"]
+    },
+    {
+      "id": "24",
+      "title": "Ted the Caver",
+      "text": "",
+      "rating": 4.1,
+      "readTime": 7,
+      "tags": ["ritual", "urban legend"]
+    },
+    {
+      "id": "25",
+      "title": "Suicidemouse.avi",
+      "text": "",
+      "rating": 4.4,
+      "readTime": 7,
+      "tags": ["ghost", "supernatural"]
+    },
+    {
+      "id": "26",
+      "title": "The Goatman",
+      "text": "",
+      "rating": 4.0,
+      "readTime": 2,
+      "tags": ["ritual", "disturbing"]
+    },
+    {
+      "id": "27",
+      "title": "The Showers",
+      "text": "",
+      "rating": 4.7,
+      "readTime": 3,
+      "tags": ["supernatural", "paranormal"]
+    },
+    {
+      "id": "28",
+      "title": "The Angel Statue",
+      "text": "",
+      "rating": 3.7,
+      "readTime": 7,
+      "tags": ["disturbing", "experiment"]
+    },
+    {
+      "id": "29",
+      "title": "White with Red",
+      "text": "",
+      "rating": 4.2,
+      "readTime": 4,
+      "tags": ["urban legend", "psychological"]
+    },
+    {
+      "id": "30",
+      "title": "The Portraits",
+      "text": "",
+      "rating": 4.2,
+      "readTime": 6,
+      "tags": ["monster", "internet myth"]
+    },
+    {
+      "id": "31",
+      "title": "The Keyhole",
+      "text": "",
+      "rating": 3.7,
+      "readTime": 5,
+      "tags": ["ghost", "monster"]
+    },
+    {
+      "id": "32",
+      "title": "The Whistlers",
+      "text": "",
+      "rating": 4.6,
+      "readTime": 2,
+      "tags": ["experiment", "ghost"]
+    },
+    {
+      "id": "33",
+      "title": "I Dared My Best Friend",
+      "text": "",
+      "rating": 3.7,
+      "readTime": 5,
+      "tags": ["internet myth", "ghost"]
+    },
+    {
+      "id": "34",
+      "title": "The Thing in the Window",
+      "text": "",
+      "rating": 5.0,
+      "readTime": 5,
+      "tags": ["experiment", "psychological"]
+    },
+    {
+      "id": "35",
+      "title": "My Dead Girlfriend Keeps Messaging Me",
+      "text": "",
+      "rating": 3.7,
+      "readTime": 2,
+      "tags": ["disturbing", "internet myth"]
+    },
+    {
+      "id": "36",
+      "title": "Room Zero",
+      "text": "",
+      "rating": 3.6,
+      "readTime": 7,
+      "tags": ["monster", "supernatural"]
+    },
+    {
+      "id": "37",
+      "title": "The Thing That Stalks the Fields",
+      "text": "",
+      "rating": 4.2,
+      "readTime": 5,
+      "tags": ["monster", "disturbing"]
+    },
+    {
+      "id": "38",
+      "title": "The Black-Eyed Children",
+      "text": "",
+      "rating": 4.6,
+      "readTime": 4,
+      "tags": ["internet myth", "supernatural"]
+    },
+    {
+      "id": "39",
+      "title": "Knock",
+      "text": "",
+      "rating": 4.9,
+      "readTime": 7,
+      "tags": ["disturbing", "paranormal"]
+    },
+    {
+      "id": "40",
+      "title": "The Banshee\u2019s Wail",
+      "text": "",
+      "rating": 4.6,
+      "readTime": 2,
+      "tags": ["disturbing", "paranormal"]
+    },
+    {
+      "id": "41",
+      "title": "The Staircase Ritual",
+      "text": "",
+      "rating": 3.9,
+      "readTime": 2,
+      "tags": ["ghost", "ritual"]
+    },
+    {
+      "id": "42",
+      "title": "The Book with No Title",
+      "text": "",
+      "rating": 4.6,
+      "readTime": 7,
+      "tags": ["paranormal", "psychological"]
+    },
+    {
+      "id": "43",
+      "title": "Midnight Game",
+      "text": "",
+      "rating": 3.7,
+      "readTime": 7,
+      "tags": ["experiment", "ghost"]
+    },
+    {
+      "id": "44",
+      "title": "The Man in the Fields",
+      "text": "",
+      "rating": 4.0,
+      "readTime": 2,
+      "tags": ["psychological", "monster"]
+    },
+    {
+      "id": "45",
+      "title": "The Smiling Suicide",
+      "text": "",
+      "rating": 4.8,
+      "readTime": 4,
+      "tags": ["monster", "experiment"]
+    },
+    {
+      "id": "46",
+      "title": "The Last Broadcast",
+      "text": "",
+      "rating": 3.6,
+      "readTime": 5,
+      "tags": ["monster", "paranormal"]
+    },
+    {
+      "id": "47",
+      "title": "Lights Out",
+      "text": "",
+      "rating": 4.4,
+      "readTime": 6,
+      "tags": ["monster", "psychological"]
+    },
+    {
+      "id": "48",
+      "title": "The Phone Call",
+      "text": "",
+      "rating": 4.6,
+      "readTime": 7,
+      "tags": ["disturbing", "supernatural"]
+    },
+    {
+      "id": "49",
+      "title": "The Fog",
+      "text": "",
+      "rating": 4.8,
+      "readTime": 3,
+      "tags": ["ghost", "ritual"]
+    },
+    {
+      "id": "50",
+      "title": "The Collector",
+      "text": "",
+      "rating": 4.7,
+      "readTime": 4,
+      "tags": ["psychological", "ghost"]
+    }
+  ]
+}
