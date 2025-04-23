@@ -3,7 +3,7 @@ import { ModalWindow } from "../../../UI/modal";
 
 import { SettingsIcon } from "../../../UI/svg";
 import { SearchIcon } from "../../../UI/svg/search";
-import { fetchStories, openModalWindow, sortByName } from "../../store/slices";
+import { fetchStories, fetchTags, openModalWindow, sortByName } from "../../store/slices";
 import { StoryComponent } from "./components";
 import { useEffect } from "react";
 
@@ -14,6 +14,7 @@ export const AllStoriesComponent = () => {
   useEffect(() => {
     if (state.status === "idle") {
       dispatch(fetchStories());
+      dispatch(fetchTags());
     }
   }, [dispatch, state.status]);
 

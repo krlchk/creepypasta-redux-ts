@@ -1,4 +1,31 @@
 {
+  "tags": [
+    { "id": 1, "name": "Psychological" },
+    { "id": 2, "name": "Paranormal" },
+    { "id": 3, "name": "Ghost" },
+    { "id": 4, "name": "Mystery" },
+    { "id": 5, "name": "Urban legend" },
+    { "id": 6, "name": "Monster" },
+    { "id": 7, "name": "Ritual" },
+    { "id": 8, "name": "True story" },
+    { "id": 9, "name": "Creature" },
+    { "id": 10, "name": "Haunted" },
+    { "id": 11, "name": "Dream" },
+    { "id": 12, "name": "Madness" },
+    { "id": 13, "name": "Forest" },
+    { "id": 14, "name": "Curse" },
+    { "id": 15, "name": "Lost" },
+    { "id": 16, "name": "Crime" },
+    { "id": 17, "name": "Survival" },
+    { "id": 18, "name": "Abandoned" },
+    { "id": 19, "name": "School" },
+    { "id": 20, "name": "Mirror" },
+    { "id": 21, "name": "Hospital" },
+    { "id": 22, "name": "Internet" },
+    { "id": 23, "name": "Cave" },
+    { "id": 24, "name": "Isolation" },
+    { "id": 25, "name": "Revenge" }
+  ],
   "stories": [
     {
       "id": "1",
@@ -43,7 +70,7 @@
     {
       "id": "6",
       "title": "Jeff the Killer",
-      "text": "",
+      "text": "Jeff started out as a normal suburban teenager, living with his Mother Margaret, Father Peter and Brother Liu.\n\nAt some point in Jeff's life when he reached the age of 13, he and his family moved into a new neighborhood after his father got a promotion. Jeff and his brother were happy about the idea. Not long after settling into the neighborhood, Jeff obtains an odd feeling in his mind, but does not think too much of it.\n\nA day later Jeff and Liu go to a bus stop void of people, while waiting for the school bus three kids Randy, Troy and Keith approach the brothers and mug them at knife point, taking Liu's wallet in the process, Jeff gets the feeling in his head again and gets into a fight with the three bullies, incapacitating all three of them, shocking Liu, Jeff and Liu leave the scene after the school bus nears in and go to school, believing they are in the clear.\n\nThe next morning however, police arrive at Jeff's house and both Jeff and Liu are accused of attacking the trio with no apparent motivation, even after Jeff tries to tell the police that they were being mugged, the police doesn't believe him, Jeff rightly takes the blame for the whole thing and is about to be taken away by the police to a Correctional Facility for a whole year, but Liu steps in with a knife in hand and takes the blame for the whole incident, showing cuts and bruises on his arm to prove it, Liu is then taken away in Jeff's place, leaving Jeff into a depression.\n\nAfter two days, Jeff becomes more and more debilitated with guilt and loneliness. However on a Saturday morning, Jeff's mother insists that he goes to a neighbors birthday party as she believes it will make him happy. Jeff reluctantly goes to the party, which shortly takes his mind off of Liu, making him feel slightly better. However things take a turn for the worse when Randy, Troy & Keith track Jeff at the party and confront him, with anger in their eyes showing that they are wanting an obvious fight, Jeff tries to reason with Randy believing that the odds are even between the two as he got to beat them and they got his brother sent to the Juvenile Detention Center, but Randy dismisses this as he claims \"I don’t go for even, I go for winning\".\n\nRandy then proceeds to brutally attack Jeff whilst Troy and Keith hold the parents and children at gunpoint to prevent them from stopping the fight, during the fight Randy smashes a bottle of Vodka over Jeff's head, drenching him in alcohol. After Randy incapacitates Jeff, he constantly yells at Jeff to fight back, but after struggling to stand, Randy finally insults Jeff, telling him that Liu will rot in prison and that he should be ashamed of himself that he won't do anything about it.\n\nThis infuriates Jeff to stand up and knock Randy to the ground, striking a vicious punch to Randy's chest, causing Arrhythmia to his heart, which results in his death. Troy and Keith, enraged by Randy's death, begin to shoot Jeff with their guns, they fail to hit him. After the two run out of ammunition, Jeff lures them to the bathroom where he mortally wounds them.\n\nDuring the struggle with Keith, a tub of bleach drenches Jeff, and so Keith takes this opportunity to set Jeff on fire by throwing his lighter at him. With the combination of alcohol and bleach drenched on Jeff, it sets him a blaze, making it practically impossible for him to put out the flames himself, Jeff then falls down the stairs of the house and passes out as the flames engulf him.\n\nJeff wakes up in a hospital room with bandages covering his face and body, and is informed by his mother that Liu is being released from jail after witnesses overheard Randy mention that he was responsible for getting Liu in prison. Several weeks later, Jeff's bandages are removed, revealing his face to be deformed, Jeff takes a liking to his face, and when his family notices the behaviour, the doctors mistakenly assure them that it is a result of the painkillers.\n\nWhen taken home that day, during the night, Jeff's mother wakes up to find Jeff in the bathroom burning out his own eyelids and carving a glasgow smile up to his cheeks, she realises that Jeff has gone insane and knows he needs to be killed, when informing Jeff's father, Jeff overhears this and proceeds to butcher his parents. Liu wakes up from the noise and tries to avoid it by trying to go back to sleep, however Jeff creeps into the room and tells Liu to \"Go To Sleep\", before plunging the knife into his chest, Liu's fate is then left uncertain.\n\nJeff then goes on a serial killing rampage killing those who refuse to sleep at night, Jeff becomes infamously known as the \"Ominous Unknown Killer\".",
       "rating": 3.7,
       "readTime": 3,
       "tags": ["disturbing", "internet myth"]

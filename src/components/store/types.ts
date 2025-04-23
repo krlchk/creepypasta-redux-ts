@@ -1,9 +1,12 @@
 export interface ICreepypastaState {
   stories: IStorie[];
+  tags: ITag[];
   filteredStories: IStorie[];
-  readStories: IStorie[];
   isModalOpen: boolean;
-  readStorie: IStorie | null |undefined;
+  readStories: IStorie[];
+  readStorie: IStorie | null | undefined;
+  favStories: IStorie[];
+  favStorie: IStorie | null | undefined;
   sortingCategory:
     | "byRatingDescending"
     | "byRatingAscending"
@@ -22,4 +25,9 @@ export interface IStorie {
   rating: number;
   readTime: number;
   tags: string[];
+}
+
+export interface ITag {
+  id: string;
+  name: string;
 }

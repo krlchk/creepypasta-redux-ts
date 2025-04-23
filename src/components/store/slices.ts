@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { ICreepypastaState, IStorie } from "./types";
+import { ICreepypastaState, IStorie, ITag } from "./types";
 import axios from "axios";
 
 export const fetchStories = createAsyncThunk<IStorie[]>(
@@ -12,11 +12,22 @@ export const fetchStories = createAsyncThunk<IStorie[]>(
   },
 );
 
+export const fetchTags = createAsyncThunk<ITag[]>(
+  "stories/fetchTags",
+  async () => {
+    const response = await axios.get<ITag[]>("http://localhost:3001/tags");
+    return response.data;
+  },
+);
+
 const initialState: ICreepypastaState = {
   stories: [],
   filteredStories: [],
+  tags: [],
   readStories: [],
   readStorie: null,
+  favStories: [],
+  favStorie: null,
   isModalOpen: false,
   sortingCategory: "byRatingDescending",
   searchText: "",
@@ -38,6 +49,11 @@ export const creepypastaSlice = createSlice({
         );
       }
     },
+    sortByTags: (state, action) => {
+      state.filteredStories = state.filteredStories.filter((story) =>
+        story.tags.includes(action.payload.toLowerCase()),
+      );
+    },
     setSortByRatingDescending: (state) => {
       state.sortingCategory = "byRatingDescending";
       state.filteredStories = state.stories.toSorted(
@@ -45,6 +61,9 @@ export const creepypastaSlice = createSlice({
       );
       alert("Sorted by rating descending!");
       state.isModalOpen = false;
+    },
+    resetFilters: (state) => {
+      state.filteredStories = state.stories;
     },
     setSortByRatingAscending: (state) => {
       state.sortingCategory = "byRatingAscending";
@@ -81,7 +100,6 @@ export const creepypastaSlice = createSlice({
       alert("Sorted by alphabet!");
       state.isModalOpen = false;
     },
-
     openModalWindow: (state) => {
       state.isModalOpen = true;
     },
@@ -89,9 +107,39 @@ export const creepypastaSlice = createSlice({
       state.isModalOpen = false;
     },
     toTheReadStorie: (state, action: PayloadAction<IStorie | undefined>) => {
-      if (action.payload !== undefined) {
+      const alreadyIn = state.readStories.some(
+        (story) => story.id === action?.payload?.id,
+      );
+      if (alreadyIn) return;
+      if (action?.payload) {
         state.readStorie = action.payload;
         state.readStories.push(action.payload);
+        state.readStorie = null;
+      }
+    },
+    outOfTheReadStorie: (state, action: PayloadAction<IStorie | undefined>) => {
+      if (action.payload) {
+        state.readStories = state.readStories.filter(
+          (story) => story.id !== action.payload?.id,
+        );
+      }
+    },
+    toTheFavStorie: (state, action: PayloadAction<IStorie | undefined>) => {
+      const alreadyIn = state.favStories.some(
+        (story) => story.id === action?.payload?.id,
+      );
+      if (alreadyIn) return;
+      if (action?.payload) {
+        state.favStorie = action.payload;
+        state.favStories.push(action.payload);
+        state.favStorie = null;
+      }
+    },
+    outOfTheFavStorie: (state, action: PayloadAction<IStorie | undefined>) => {
+      if (action.payload) {
+        state.favStories = state.favStories.filter(
+          (story) => story.id !== action.payload?.id,
+        );
       }
     },
   },
@@ -108,15 +156,31 @@ export const creepypastaSlice = createSlice({
       state.status = "failed";
       state.error = action.error?.message || "Failed to fetch";
     });
+    builder.addCase(fetchTags.pending, (state) => {
+      state.status = "loading";
+    });
+    builder.addCase(fetchTags.fulfilled, (state, action) => {
+      state.status = "succeeded";
+      state.tags = action.payload;
+    });
+    builder.addCase(fetchTags.rejected, (state, action) => {
+      state.status = "failed";
+      state.error = action.error?.message || "Failed to fetch";
+    });
   },
 });
 
 export const {
   setSortByRatingDescending,
+  sortByTags,
+  resetFilters,
   setSortByRatingAscending,
   setSortByTimeDescending,
   setSortByTimeAscending,
   toTheReadStorie,
+  outOfTheReadStorie,
+  toTheFavStorie,
+  outOfTheFavStorie,
   setSortFromAToZ,
   sortByName,
   openModalWindow,
